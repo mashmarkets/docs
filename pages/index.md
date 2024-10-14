@@ -2,4 +2,4 @@
 
 Perpetual Swaps, Simplified
 
-Coming soon...
+Coming soon
