@@ -60,6 +60,10 @@ jobs:
       - name: Build with Next.js
         run: npx --no-install next build
 
+      - name: Remove cache
+        description: https://github.com/orgs/vercel/discussions/2079
+        run: rm -rf .next/cache
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
