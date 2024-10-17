@@ -31,13 +31,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -48,10 +53,13 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build with Next.js
-        run: npm run build
+        run: npx --no-install next build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
