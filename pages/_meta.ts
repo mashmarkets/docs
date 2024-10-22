@@ -1,4 +1,8 @@
 export default {
-  index: "Home",
-  test: "Test",
+  vision: "Vision",
+  whatIsMashMarkets: "What is Mash Markets?",
+  fees: "Fees",
+  trading: "Trading",
+  revenueShare: "Revenue Share & Ways to Earn",
+  technicalImplementation: "Technical Implementation",
 };
