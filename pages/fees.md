@@ -1,5 +1,3 @@
-# Fees
-
 Mash Markets charges competitive fees to ensure an affordable trading experience. The fee structure is straightforward and aims to incentivize trading volume while maintaining the long-term sustainability of the platform.
 
 ### Fee Breakdown:
