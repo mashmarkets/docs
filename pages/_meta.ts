@@ -1,8 +1,8 @@
 export default {
   vision: "Vision",
-  whatIsMashMarkets: "What is Mash Markets?",
+  "what-is-mash-markets": "What is Mash Markets?",
   fees: "Fees",
   trading: "Trading",
-  revenueShare: "Revenue Share & Ways to Earn",
-  technicalImplementation: "Technical Implementation",
+  "revenue-share": "Revenue Share & Ways to Earn",
+  "technical-implementation": "Technical Implementation",
 };
