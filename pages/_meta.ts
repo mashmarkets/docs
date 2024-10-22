@@ -4,6 +4,6 @@ export default {
   "what-is-mash-markets": "What is Mash Markets?",
   fees: "Fees",
   trading: "Trading",
-  "revenue-share": "",
+  "revenue-share": "Revenue Share & Ways to Earn",
   "technical-implementation": "Technical Implementation",
 };
